@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/image_button"
+    >
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="text"
+        android:textColor="#FF8800"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="-32dp"
+        android:contentDescription="Выбранная"
+        android:src="@drawable/accept" />
+
+</LinearLayout>
